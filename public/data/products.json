@@ -10,7 +10,7 @@
   {
     "_id": 2,
     "name": "Wals-Kit",
-    "category": "Nike",
+    "category": "Adidas",
     "picture": "../img/wals.jpg",
     "price": 65,
     "quantity": 74
@@ -18,7 +18,7 @@
   {
     "_id": 3,
     "name": "Germany-Kit",
-    "category": "Nike",
+    "category": "Adidas",
     "picture": "../img/germany.jpg",
     "price": 125,
     "quantity": 30

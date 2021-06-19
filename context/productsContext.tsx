@@ -10,9 +10,18 @@ export const ProductsProvider = (props: any) => {
   const [total, setTotal] = useState(0);
   const [productAvailabe, setProductAvailabe] = useState("in");
 
+  // const getTotalInit = () =>
+  //   cart.map((itemProduct) => {
+  //     if (itemProduct.productId) {
+  //       products.map((product) => {
+  //         if (product._id === itemProduct.productId) {
+  //           setTotal(total + itemProduct.quantity * product.price);
+  //         }
+  //       });
+  //     }
+  //   });
 
   const increaseQuantity = (productId) => {
-
     products.map((product) => {
       if (product.quantity > 0 && product._id === productId) {
         cart.map((productItem) => {
@@ -30,7 +39,6 @@ export const ProductsProvider = (props: any) => {
   };
 
   const decreaseQuantity = (productId) => {
-
     products.map((product) => {
       if (product._id === productId) {
         cart.map((productItem) => {
