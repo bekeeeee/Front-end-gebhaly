@@ -1,0 +1,57 @@
+@mixin Flexbox {
+  display: flex;
+  justify-content: center;
+  background-color: rgba($color: #000000, $alpha: 1);
+  color: white;
+  font-weight: 800;
+}
+.imgProduct {
+  max-width: 5em;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  align-items: stretch;
+}
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: 30px;
+  text-align: center;
+  font-family: arial;
+  flex: 1;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin: 0;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
+.outStock {
+  visibility: visible;
+  display: block;
+  color: red;
+  font-size: 18px;
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "_id": 1,
+    "name": "England-Kit",
+    "category": "Nike",
+    "picture": "../img/england.jpg",
+    "price": 100,
+    "quantity": 5
+  },
+  {
+    "_id": 2,
+    "name": "Wals-Kit",
+    "category": "Nike",
+    "picture": "../img/wals.jpg",
+    "price": 65,
+    "quantity": 74
+  },
+  {
+    "_id": 3,
+    "name": "Germany-Kit",
+    "category": "Nike",
+    "picture": "../img/germany.jpg",
+    "price": 125,
+    "quantity": 30
+  },
+  {
+    "_id": 4,
+    "name": "Turkey-Kit",
+    "category": "Nike",
+    "picture": "../img/turkey.jpg",
+    "price": 75,
+    "quantity": 0
+  },
+  {
+    "_id": 5,
+    "name": "France-Kit",
+    "category": "Nike",
+    "picture": "../img/france.jpg",
+    "price": 110,
+    "quantity": 70
+  }
+]
